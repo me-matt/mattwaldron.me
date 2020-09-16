@@ -19,22 +19,34 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       />
       <article>
         <header>
-          <h1
+          <h3
             style={{
-              marginTop: rhythm(1),
+              ...scale(2 / 3),
+              marginTop: rhythm(2),
               marginBottom: 0,
             }}
           >
             {post.frontmatter.title}
-          </h1>
+          </h3>
           <p
             style={{
-              ...scale(-1 / 5),
+              ...scale(1 / 4),
               display: `block`,
               marginBottom: rhythm(1),
             }}
           >
-            {post.frontmatter.date}
+            <small
+              style={{
+                marginRight: rhythm(1 / 2),
+              }}
+            >{post.frontmatter.date}</small>
+            <small
+              style={{
+                float: 'right',
+                marginLeft: rhythm(1 / 2),
+                textAlign: 'right'
+              }}
+            >{post.fields.readingTime.text}</small>
           </p>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -95,6 +107,11 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+      }
+      fields {
+        readingTime {
+          text
+        }
       }
     }
   }

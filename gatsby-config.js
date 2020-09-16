@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Hi, I'm Matt Waldron`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Matt Waldron`,
+      summary: `I'm a Product Architect at Xero, living in Wellington, New Zealand. I'm a lifelong ideator and learner.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `A place for ideation, general thoughts, musings and brain dumps`,
+    siteUrl: `https://mattwaldron.me/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `itsmemattw`,
     },
   },
   plugins: [
@@ -48,12 +48,15 @@ module.exports = {
         ],
       },
     },
+    'gatsby-remark-reading-time',
+    `gatsby-plugin-theme-ui`,
+    'gatsby-plugin-draft',
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-163149460-1`,
       },
     },
     `gatsby-plugin-feed`,
@@ -66,7 +69,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/favicon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,

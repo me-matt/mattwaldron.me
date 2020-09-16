@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+import { scale, rhythm } from "../utils/typography"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -21,14 +21,27 @@ const BlogIndex = ({ data, location }) => {
             <header>
               <h3
                 style={{
-                  marginBottom: rhythm(1 / 4),
+                  ...scale(2 / 3),
+                  marginBottom: rhythm(1 / 3),
                 }}
               >
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
+              <p
+                style={{
+                ...scale(1 / 16),
+                display: `block`,
+                marginBottom: rhythm(1 / 16),
+                }}
+              >
+                <small
+                    style={{
+                    marginRight: rhythm(1),
+                    }}>{node.frontmatter.date}</small>
+                <small>{node.fields.readingTime.text}</small>
+              </p>
             </header>
             <section>
               <p
@@ -53,12 +66,18 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      filter: { fields: { draft: { eq: false } } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       edges {
         node {
           excerpt
           fields {
             slug
+            readingTime {
+              text
+            }
           }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")

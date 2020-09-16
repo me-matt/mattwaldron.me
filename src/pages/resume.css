@@ -1,0 +1,19 @@
+div.two-column {
+  display: flex;
+  flex-direction: row;
+  margin-left: -2rem;
+  margin-right: -2rem;
+}
+
+div.two-column div {
+  margin-left: 2rem;
+  margin-right: 2rem
+}
+
+div.two-column div h4 {
+  margin-top: 0;
+}
+
+h4 {
+  line-height: 1.5rem;
+}

@@ -1,0 +1,53 @@
+h1 {
+  color: #ff2e63
+}
+
+h3 {
+  color: #08d9d6
+}
+
+a {
+  color: #08d9d6
+  /* color: #A0C1D1 */
+}
+
+a:hover {
+  color: #ff2e63
+}
+
+div {
+  font-size: 0.9rem;
+}
+
+hr {
+  background-color: #ff2e63;
+}
+
+hr.thin {
+  background-color: #eaeaea;
+  width: 50%;
+  margin: 0 auto;
+}
+
+blockquote {
+  color: #eaeaea;
+  border-left-color: #eaeaea;
+}
+
+div.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+div.menu h4 {
+  font-size: 0.8rem;
+  margin: 0;
+  margin-right: 3rem;
+}
+
+article section h4:first-child {
+  margin-top: 0;
+}
