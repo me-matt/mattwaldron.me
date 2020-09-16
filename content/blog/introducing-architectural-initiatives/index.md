@@ -21,16 +21,18 @@ You've determined your dimensions for success, designed your systems to meet tho
 
 It's tempting to just pass it over to engineering pods. From my experience though, there are almost always questions and further decisions that need to be made from a holistic context. Once the engineering teams digest the designs and approach the solution space they will undoubtedly have suggestions too.
 
-If there isn't a process defined for prioritising work that could be a bigger conversation for your team. But if one does exist, as in my current situation, then the next step might be to start describing architecture as a collection of smaller self-contained initiatives. Each initiative enters the product prioritisation process like all other work.
+If there isn't a process defined for prioritising work that could be a bigger conversation for your team. But if one does exist, as in my current situation, then the next step might be to start describing architecture as a collection of smaller self-contained initiatives. Each initiative undergoes product prioritisation process like all other work.
 
-This idea isn't particularly unique, after all, working with milestones is a pretty obvious approach. Both are a collection of logically grouped changes, initiatives differ by being self-isolated and being scoped to a pod, a series of initiatives comprise a milestone.
+This idea isn't particularly unique, after all, working with milestones is a fairly typical technique. Both are a collection of logically grouped changes, bur initiatives differ by being self-isolated and scoped to a pod.
+
+A series of initiatives will ultimately comprise a milestone, but the milestone can represent an important point in the development of the system, be that a deliverable for the business or a particular technology adoption.
 
 ![Architectural initiatives example roadmap](/architectural-initiatives-example-roadmap.jpeg)
 
-If your team is structured around ownership and your domain, then aligning units of work to that team structure simplifies the overhead of cross-pod coordination and communication. It is our responsibility as architects to ensure the transition to future state is scoped appropriately to the pods, and the initiatives dependency graph is kept up-to-date.
+If your team is structured around your domain, aligning units of work to that structure simplifies the overhead of cross-pod coordination and communication. It is our responsibility as architects to ensure the transition to future state comprises of work scoped appropriately to the pods, and the initiatives dependency graph for each milestone is kept up-to-date.
 
-Delivering self-contained change promotes pods further owning their domain and components, in particular ensuring their evolution is stable and compatible with surrounding domains.
+Delivering self-contained change further promotes pods owning their domain and components, in particular ensuring their evolution is stable and compatible with surrounding domains.
 
-This also creates a feedback loop in the architectural process, reflecting the outcome of each initiative back at the architectural vector. This update could come from a better understanding of the system architecturally, or from engineering pods suggesting varying solutions.
+This also creates a useful feedback loop in the architectural process, providing an opportunity to reflect the outcome of each initiative back at the architectural vector. Updates might come from a better understanding of the system holistically, from engineering pods making improvements to their systems, or a better understanding of generic capabilities that may be better suited elsewhere in the domain.
 
-This results in greater resilience in design, consistency when leveraging existing processes for change, promoting culture across the team, and as architectural initiatives can come from any role in the team, no gatekeeping.
+This results in greater resilience in design, consistency with existing processes, promoting culture across the team, and as architectural initiatives can come from any role in the team, no gatekeeping.
