@@ -3,7 +3,7 @@ module.exports = {
     title: `Hi, I'm Matt Waldron`,
     author: {
       name: `Matt Waldron`,
-      summary: `I'm a Product Architect at Xero, living in Wellington, New Zealand. I'm a lifelong ideator and learner.`,
+      summary: `I'm a Product Architect at Xero, living in Wellington, New Zealand. Also a lifelong ideator and learner.`,
     },
     description: `A place for ideation, general thoughts, musings and brain dumps`,
     siteUrl: `https://mattwaldron.me/`,
