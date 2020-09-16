@@ -32,7 +32,7 @@ const Wordpress2016Custom = {
   }
 }
 
-delete Wordpress2016.googleFonts
+delete Wordpress2016Custom.googleFonts
 
 const typography = new Typography(Wordpress2016Custom)
 
