@@ -21,7 +21,7 @@ const HomeIndex = ({ data, location }) => {
         <Contact email="contact@mattwaldron.me" />
         {[
           `Hi, I'm Matt. I'm a keen problem solver and ideator.`,
-          `I enjoy thinking about problems, all kinds of problems, and finding connections between seemingly disconnected ideas.`,
+          `I enjoy thinking about problems, all kinds of problems, finding connections between seemingly disconnected ideas and finding solutions for those problems.`,
           `In my spare time I like to learn about new topics and interests and spend most of my time digesting different ideas. I'm an advocate for mental well being and welcome all discussions in this area, often promoting techniques and practices for friends, family and colleagues.`,
           `The rest of my time is spent with my family, and 2 kids easily fill that.`
         ].map(s => <Line>{s}</Line>)}
