@@ -5,6 +5,9 @@ description: "A brief account of my three years from relating to a bunch of ADHD
 tags: ADHD, mental health, personal
 ---
 
+>####TLDR;
+> I have ADHD and it took me three years to finally get a diagnosis. ADHD has a lot of severe symptoms that aren't typically associated or recognised as part of the disorder, but they can be unknowingly debilitating.
+
 In the early days things were OK. My personal life was very loosely managed with an intentional lack of responsibility, my professional life as a software engineer had a lot of inherent structure and guided process. In an odd way, I always thought I was different, but with no real insight into why or how.
 
 For my entire school life, and about 10 years of my professional career, I have taken a lot of qualities at face value and assumed they were either flaws or that everyone had these attributes and just managed them slightly better than I did.
