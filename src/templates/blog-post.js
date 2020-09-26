@@ -19,7 +19,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       />
       <article>
         <header>
-          <h3
+          <h2
             style={{
               ...scale(2 / 3),
               marginTop: rhythm(2),
@@ -27,7 +27,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             }}
           >
             {post.frontmatter.title}
-          </h3>
+          </h2>
           <p
             style={{
               ...scale(1 / 4),

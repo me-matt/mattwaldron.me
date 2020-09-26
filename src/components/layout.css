@@ -2,6 +2,10 @@ h1 {
   color: #ff2e63
 }
 
+h2 {
+  color: #08d9d6
+}
+
 h3 {
   color: #08d9d6
 }
@@ -21,6 +25,10 @@ div {
 
 hr {
   background-color: #ff2e63;
+}
+
+iframe {
+  border: 0;
 }
 
 hr.thin {
@@ -50,4 +58,13 @@ div.menu h4 {
 
 article section h4:first-child {
   margin-top: 0;
+}
+
+section h1 {
+  color: #eaeaea;
+  font-size: 1.25rem;
+}
+section h2 {
+  color: #eaeaea;
+  font-size: 1.15rem;
 }
