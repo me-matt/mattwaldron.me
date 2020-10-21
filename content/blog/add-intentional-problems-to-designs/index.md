@@ -5,7 +5,7 @@ description: "Getting designs in front of engineers enough can be difficult. But
 tags: Architecture, Software
 ---
 
->### TLDR; Outside of architecture, it can be difficult getting enough attention on designs and so ensuring everyone has truly processed them and surfaced any issues. Many strategies exist, but one I recently found to have a considerable increase in attention was by including intentional problems or gaps.
+>### TLDR; Within architecture we are constantly reviewing and updating our designs, but for other functions it requires various strategies to ensure everyone has processed them and has a good understanding to surface issues early. One strategy I recently found to have a considerable increase in attention was to include intentional problems or 'easter eggs'.
 
 [[protagonist]]
 | #### I propose we add intentional gaps or mistakes to architectural designs.
