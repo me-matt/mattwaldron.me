@@ -1,22 +1,21 @@
 h1 {
-  color: #ff2e63
+  color: #ff2e63;
 }
 
 h2 {
-  color: #08d9d6
+  color: #08d9d6;
 }
 
 h3 {
-  color: #08d9d6
+  color: #08d9d6;
 }
 
 a {
-  color: #08d9d6
-  /* color: #A0C1D1 */
+  color: #08d9d6;
 }
 
 a:hover {
-  color: #ff2e63
+  color: #ff2e63;
 }
 
 div {
@@ -67,4 +66,82 @@ section h1 {
 section h2 {
   color: #eaeaea;
   font-size: 1.15rem;
+}
+section h3 {
+  color: #eaeaea;
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+  font-size: 0.9rem;
+  line-height: 1.25;
+  letter-spacing: 0.140625em;
+  font-style: normal;
+}
+
+.chat {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.chat p {
+  margin: 0;
+}
+
+.chat img {
+  max-width: 50px;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+}
+
+.chat div {
+  border-radius: 20px;
+}
+
+.chat h3 {
+  color: #eaeaea;
+  margin: 0;
+  font-size: 0.9rem;
+}
+.chat h4 {
+  color: #eaeaea;
+  margin: 0;
+  padding: 0;
+  text-transform: none;
+  font-size: 0.9rem;
+  letter-spacing: 0;
+  font-weight: 200;
+  line-height: 1.575rem;
+}
+
+.chat div:first-child {
+  display: flex;
+  margin: 0 0.5rem;
+}
+
+.chat.protagonist div:nth-child(2) {
+  flex-grow: 1;
+  background-color: #a62750;
+  margin-right: 12rem;
+  padding: 1rem;
+}
+
+.chat:not(.protagonist) {
+  flex-direction: row-reverse;
+}
+
+.chat:not(.protagonist) div:nth-child(2) {
+  flex-grow: 1;
+  margin-left: 12rem;
+  padding: 1rem;
+}
+
+.chat.antagonist div:nth-child(2) {
+  background-color: #008A95;
+}
+
+.chat.deuteragonist div:nth-child(2) {
+  background-color: #229864;
 }
