@@ -31,13 +31,32 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: "gatsby-remark-custom-blocks",
+            options: {
+              blocks: {
+                protagonist: {
+                  classes: "chat protagonist",
+                  title: "![protagonist](/protagonist.png)"
+                },
+                antagonist: {
+                  classes: "chat antagonist",
+                  title: "![antagonist](/antagonist.png)"
+                },
+                deuteragonist: {
+                  classes: "chat deuteragonist",
+                  title: "![deuteragonist](/deuteragonist.png)"
+                },
+              },
+            },
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
             },
           },
           {
-            resolve: "gatsby-remark-embed-youtube",
+            resolve: 'gatsby-remark-embed-youtube',
             options: {
               width: 800,
               height: 400
