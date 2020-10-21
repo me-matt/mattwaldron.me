@@ -1,5 +1,5 @@
 ---
-title: My three year journey from suspicion to official ADHD!
+title: My three year journey from suspicion to diagnosis with ADHD
 date: "2020-09-16T00:00:00.000Z"
 description: "A brief account of my three years from relating to a bunch of ADHD qualities and getting an official diagnosis"
 tags: ADHD, mental health, personal
