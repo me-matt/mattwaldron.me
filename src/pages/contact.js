@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import "./resume.css"
 
@@ -11,8 +11,8 @@ const HomeIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   return (
   <Layout location={location} title={siteTitle}>
-    <SEO title="Curriculum vitae" />
-    <h2></h2>
+    <SEO title="Contact" />
+    <h2>Contact me</h2>
     <Contact email="contact@mattwaldron.me" />
   </Layout>
   )

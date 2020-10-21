@@ -6,8 +6,6 @@ import "./layout.css"
 import { rhythm, scale } from "../utils/typography"
 
 const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
-
   return (
     <div
       style={{
@@ -18,7 +16,7 @@ const Layout = ({ location, title, children }) => {
         paddingTop: 0
       }}
     >
-      <div class="menu">
+      <div className="menu">
         <h4>
           <Link style={{ boxShadow: 'none' }} to={'/'}>
               Blog
