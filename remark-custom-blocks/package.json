@@ -1,0 +1,46 @@
+{
+  "name": "remark-custom-blocks",
+  "version": "2.5.0",
+  "repository": {
+    "url": "https://github.com/zestedesavoir/zmarkdown/tree/master/packages/remark-custom-blocks",
+    "type": "git"
+  },
+  "author": "Victor Felder <victor@draft.li> (https://draft.li)",
+  "contributors": [
+    "Sébastien (AmarOk) Blin <contact@enconn.fr>",
+    "François (artragis) Dambrine <perso@francoisdambrine.me>",
+    "Victor Felder <victor@draft.li> (https://draft.li)"
+  ],
+  "scripts": {
+    "pretest": "eslint .",
+    "build": "del-cli dist && cross-env BABEL_ENV=production babel src --out-dir dist",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "LICENSE-MIT",
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "keywords": [
+    "remark"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "space-separated-tokens": "^1.1.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/polyfill": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "cross-env": "^7.0.2",
+    "del-cli": "^3.0.1"
+  },
+  "gitHead": "80f91b8257b3733acd5b8b5b3f128f0b265a79f2"
+}

@@ -21,6 +21,7 @@
     "gatsby-plugin-typography": "^2.5.10",
     "gatsby-remark-autolink-headers": "^2.3.13",
     "gatsby-remark-copy-linked-files": "^2.3.12",
+    "gatsby-remark-custom-blocks": "^2.3.13",
     "gatsby-remark-embed-youtube": "^0.0.7",
     "gatsby-remark-images": "^3.3.26",
     "gatsby-remark-prismjs": "^3.5.11",
@@ -43,6 +44,9 @@
   },
   "devDependencies": {
     "prettier": "2.1.0"
+  },
+  "resolutions": {
+    "gatsby-remark-custom-blocks/remark-custom-blocks": "file:remark-custom-blocks"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
