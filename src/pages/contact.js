@@ -13,7 +13,7 @@ const HomeIndex = ({ data, location }) => {
   <Layout location={location} title={siteTitle}>
     <SEO title="Contact" />
     <h2>Contact me</h2>
-    <Contact email="contact@mattwaldron.me" />
+    <Contact email="matt@mattwaldron.me" />
   </Layout>
   )
 }

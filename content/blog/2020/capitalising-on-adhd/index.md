@@ -5,8 +5,8 @@ description: "There are many benefits and disadvantages of ADHD. Enthusiasm is c
 tags: ADHD, Mental health
 ---
 
->####TLDR;
->One of the many pervasive ADHD qualities, is enthusiasm. In a workplace setting, this can fairly easily get our of control. But with the help of medication, from my perspective, it can also be harnessed into a high-energy focus on new and interesting ideas, practices and ways of working. But as with everything ADHD, requires careful management.
+###TL;DR
+One of the many pervasive ADHD qualities, is enthusiasm. In a workplace setting, this can fairly easily get our of control. But with the help of medication, from my perspective, it can also be harnessed into a high-energy focus on new and interesting ideas, practices and ways of working. But as with everything ADHD, requires careful management.
 
 No-one will deny ADHD can be extremely challenging to manage, but there are some positive qualities. Since starting medication, I've found some of these qualities slightly more amenable to control. In this post I'm going to discuss enthusiasm.
 

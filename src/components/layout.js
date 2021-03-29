@@ -9,52 +9,51 @@ const Layout = ({ location, title, children }) => {
   return (
     <div
       style={{
-        marginLeft: `auto`,
-        marginRight: `auto`,
-        maxWidth: rhythm(24),
+        margin: `${rhythm(1.5)} auto`,
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        paddingTop: 0
+        paddingTop: 0,
+        width: '50%'
       }}
     >
-      <div className="menu">
-        <h4>
-          <Link style={{ boxShadow: 'none' }} to={'/'}>
-              Blog
-          </Link>
-        </h4>
-        <h4>
-          <Link style={{ boxShadow: 'none' }} to={'/resume'}>
-              Resume
-          </Link>
-        </h4>
-        <h4>
-          <Link style={{ boxShadow: 'none' }} to={'/about'}>
-              About
-          </Link>
-        </h4>
-        <h4>
-          <Link style={{ boxShadow: 'none' }} to={'/contact'}>
-              Contact
-          </Link>
-        </h4>
-      </div>
-      <h1
-        style={{
-          ...scale(1.5),
-          marginBottom: rhythm(1.5),
-          marginTop: 0,
-        }}
-      >
-        <Link
+      <div style={{ display: 'flex', marginBottom: `${rhythm(1.5)}` }}>
+        <h1 
           style={{
-            boxShadow: `none`,
-            color: `inherit`,
+            margin: 0,
           }}
-          to={`/`}
         >
-          {title}
-        </Link>
-      </h1>
+          <Link
+            style={{
+              boxShadow: `none`,
+              color: `inherit`,
+            }}
+            to={`/`}
+          >
+            {title}
+          </Link>
+        </h1>
+        <div className="menu">
+          <h4>
+            <Link style={{ boxShadow: 'none' }} to={'/'}>
+                Blog
+            </Link>
+          </h4>
+          <h4>
+            <Link style={{ boxShadow: 'none' }} to={'/resume'}>
+                Resume
+            </Link>
+          </h4>
+          <h4>
+            <Link style={{ boxShadow: 'none' }} to={'/about'}>
+                About
+            </Link>
+          </h4>
+          <h4>
+            <Link style={{ boxShadow: 'none' }} to={'/contact'}>
+                Contact
+            </Link>
+          </h4>
+        </div>
+      </div>
       <main>{children}</main>
       <footer>
         © Matt Waldron {new Date().getFullYear()}

@@ -1,25 +1,36 @@
 h1 {
-  color: #ff2e63;
+  color: ##40514e;
+}
+
+h1 a {
+  text-decoration: underline;
 }
 
 h2 {
-  color: #08d9d6;
+  color: hsl(226, 21%, 12%);
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+h2 a {
+  color: #007acc;
+  text-decoration: underline;
 }
 
 h3 {
-  color: #08d9d6;
+  color: hsl(226, 21%, 12%);
 }
 
 a {
-  color: #08d9d6;
+  color: hsl(226, 21%, 12%);
 }
 
 a:hover {
-  color: #ff2e63;
+  color: hsl(226, 21%, 12%);
 }
 
 div {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 hr {
@@ -37,22 +48,26 @@ hr.thin {
 }
 
 blockquote {
-  color: #eaeaea;
-  border-left-color: #eaeaea;
+  margin-left: 2rem;
+  border-left-color: black;
 }
 
 div.menu {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 1rem;
-  margin-bottom: 4rem;
+  justify-content: flex-end;
+  flex-grow: 1;
+  align-items: center;
+}
+
+div.menu a {
+  color: #007acc;
+  text-decoration: underline;
 }
 
 div.menu h4 {
   font-size: 0.8rem;
   margin: 0;
-  margin-right: 3rem;
+  margin: 0 1.5rem;
 }
 
 article section h4:first-child {
@@ -60,15 +75,12 @@ article section h4:first-child {
 }
 
 section h1 {
-  color: #eaeaea;
   font-size: 1.25rem;
 }
 section h2 {
-  color: #eaeaea;
   font-size: 1.15rem;
 }
 section h3 {
-  color: #eaeaea;
   margin: 0;
   padding: 0;
   font-weight: 200;
@@ -123,6 +135,7 @@ section h3 {
 
 .chat.protagonist div:nth-child(2) {
   flex-grow: 1;
+  color: #eaeaea;
   background-color: #a62750;
   margin-right: 12rem;
   padding: 1rem;
@@ -139,9 +152,11 @@ section h3 {
 }
 
 .chat.antagonist div:nth-child(2) {
+  color: #eaeaea;
   background-color: #008A95;
 }
 
 .chat.deuteragonist div:nth-child(2) {
+  color: #eaeaea;
   background-color: #229864;
 }
