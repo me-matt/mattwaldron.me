@@ -3,6 +3,7 @@ title: 2020 reading list
 date: "2020-09-26T00:00:00.000Z"
 description: "This is my reading list for the year, with summaries and reviews"
 tags: Template
+draft: true
 ---
 
 ###Evolutionary architecture

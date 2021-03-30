@@ -3,6 +3,7 @@ title: Agile software architecture
 date: "2020-09-24T00:00:00.000Z"
 description: "This is the placeholder for my book on Agile Architecture"
 tags: Template
+draft: true
 ---
 
 #Table of contents
