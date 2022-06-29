@@ -1,56 +1,68 @@
-const path = require(`path`)
-const { createFilePath } = require(`gatsby-source-filesystem`)
+const path = require('path');
+const { createFilePath } = require('gatsby-source-filesystem');
+const { paginate } = require('gatsby-awesome-pagination');
 
-exports.createPages = async ({ graphql, actions }) => {
-  const { createPage } = actions
-
-  const blogPost = path.resolve(`./src/templates/blog-post.js`)
-  const result = await graphql(
-    `
-      {
-        allMarkdownRemark(
-          filter: { fields: { draft: { eq: false } } }
-          sort: { fields: [frontmatter___date], order: DESC }
-          limit: 1000
-        ) {
-          edges {
-            node {
-              fields {
-                slug
-                readingTime {
-                  text
-                }
+exports.createPages = async ({ graphql, actions: { createPage } }) => {
+  const result = await graphql(`{
+      allMarkdownRemark(
+        filter: {
+          fields: { draft: { eq: false } },
+          fileAbsolutePath: {regex: "^/(blog)/"  }
+        }
+        sort: { fields: [frontmatter___date], order: DESC }
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+              readingTime {
+                text
               }
-              frontmatter {
-                title
-              }
+            }
+            frontmatter {
+              title
             }
           }
         }
       }
-    `
-  )
+    }
+  `)
 
   if (result.errors) {
     throw result.errors
   }
 
-  // Create blog posts pages.
   const posts = result.data.allMarkdownRemark.edges
 
-  posts.forEach((post, index) => {
-    const previous = index === posts.length - 1 ? null : posts[index + 1].node
-    const next = index === 0 ? null : posts[index - 1].node
+  const templates = {};
+
+  const getTemplate = slug => {
+    if (!templates[slug]) {
+      templates[slug] = path.resolve(`./src/templates/${slug}.tsx`);
+    }
+
+    return templates[slug];
+  }
+
+  posts.forEach((post) => {
+    const blogPost = post.node.frontmatter.template || 'blog-post';
+    console.log(post.node.fields.slug);
 
     createPage({
       path: post.node.fields.slug,
-      component: blogPost,
+      component: getTemplate(blogPost),
       context: {
         slug: post.node.fields.slug,
-        previous,
-        next,
       },
     })
+  })
+
+  paginate({
+    createPage,
+    items: posts,
+    itemsPerPage: 5,
+    pathPrefix: '/',
+    component: path.resolve('./src/templates/index.tsx'),
   })
 }
 
@@ -66,14 +78,3 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
   }
 }
-
-// exports.createSchemaCustomization = ({ actions }) => {
-//   const { createTypes } = actions
-//   const typeDefs = [
-//     `type MarkdownRemark implements Node { frontmatter: Frontmatter }`,
-//     `type Frontmatter {
-//       thumbnail: File @link(by: "relativePath")
-//     }`
-//   ]
-//   createTypes(typeDefs)
-// }
