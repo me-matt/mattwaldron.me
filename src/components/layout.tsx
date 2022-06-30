@@ -74,7 +74,6 @@ const Layout = ({ location, children }) => {
         <Menu>
           {[
             { link: '/', title: 'Home' },
-            { link: '/blog', title: 'Blog' },
             { link: '/resume', title: 'Resume' },
           ].map(({ link, title }) => (
             <h4 key={link}>

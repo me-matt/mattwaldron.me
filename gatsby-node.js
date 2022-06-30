@@ -46,7 +46,6 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
 
   posts.forEach((post) => {
     const blogPost = post.node.frontmatter.template || 'blog-post';
-    console.log(post.node.fields.slug);
 
     createPage({
       path: post.node.fields.slug,

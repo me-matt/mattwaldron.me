@@ -52,11 +52,11 @@ const Blog = (props) => {
       <SEO title="All posts" />
       {edges.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
-        const thumbnail = node.frontmatter.thumbnail;
+        // const thumbnail = node.frontmatter.thumbnail;
 
         return (
           <Card key={node.fields.slug}>
-            {thumbnail && <Hero key={node.fields.slug} fluid={thumbnail.childImageSharp.fluid} />}
+            {/* {thumbnail && <Hero key={node.fields.slug} fluid={thumbnail.childImageSharp.fluid} />} */}
             <header>
               <h2 style={styles.title}>
                 <Link style={styles.link} to={node.fields.slug}>
@@ -129,13 +129,6 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
-            thumbnail {
-              childImageSharp {
-                fluid(maxWidth: 150) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
           }
         }
       }

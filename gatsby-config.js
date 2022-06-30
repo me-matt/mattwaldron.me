@@ -190,7 +190,7 @@ module.exports = {
       options: {
         name: `Gatsby Starter Blog`,
         short_name: `GatsbyJS`,
-        start_url: `/`,
+        start_url: `/blog`,
         background_color: `rgb(249, 250, 252)`,
         theme_color: `#663399`,
         display: `minimal-ui`,

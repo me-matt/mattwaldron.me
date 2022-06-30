@@ -3,7 +3,8 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const Home = ({ data: { site: { siteMetadata: { title } } }, location }) => {
+const Home = props => {
+  const { data: { site: { siteMetadata: { title } } }, location } = props;
   return (
     <Layout location={location}>
       <SEO title={title} />

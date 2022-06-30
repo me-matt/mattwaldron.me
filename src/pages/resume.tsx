@@ -88,6 +88,7 @@ export const pageQuery = graphql`{
         frontmatter {
           title
           template
+          link
           order
           from
           to

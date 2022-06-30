@@ -3,7 +3,6 @@ title: Architecture and cognitive load
 date: "2020-10-23T00:00:00.000Z"
 description: "Cognitive load is a critical dimension architecture must attempt to measure. It's an indicator the system needs dividing and provides a signal of how systems evolve."
 tags: Cognitive load, architecture
-thumbnail: './thumbnail.jpg'
 ---
 
 >### TLDR;
