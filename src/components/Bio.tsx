@@ -72,6 +72,7 @@ const Bio = () => {
           social {
             twitter
             linkedin
+            github
           }
         }
       }
@@ -92,7 +93,7 @@ const Bio = () => {
       <p>{author.summary}</p>
       <ContactMe>
         <SocialIcon fgColor="#eaeaea" url={`https://linkedin.com/in/${social.linkedin}`} />
-        <SocialIcon fgColor="#eaeaea" url={`https://twitter.com/${social.twitter}`} />
+        <SocialIcon fgColor="#eaeaea" url={`https://github.com/${social.github}`} />
         <SocialIcon fgColor="#eaeaea" url={`https://mattwaldron.me/rss.xml`} network="rss" />
         <SocialIcon fgColor="#eaeaea" url={`mailto:matt@mattwaldron.me`} />
       </ContactMe>
