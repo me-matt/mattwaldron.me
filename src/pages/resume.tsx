@@ -56,7 +56,7 @@ const Blog = ({ data: { site: { siteMetadata: { title } }, allMarkdownRemark: { 
     .sort((a, b) => a.node.frontmatter.order - b.node.frontmatter.order);
 
   return (
-    <Layout title={title} location={location}>
+    <Layout location={location}>
       <SEO title="All posts" />
       <Resume>
 
