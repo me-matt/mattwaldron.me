@@ -41,3 +41,4 @@ done
 if [ -n "$error" ]; then
   exit 1
 fiundefined
+undefined
