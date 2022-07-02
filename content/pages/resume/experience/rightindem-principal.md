@@ -1,6 +1,6 @@
 ---
 title: RightIndem
-order: 6
+order: 7
 template: experience
 link: https://www.rightindem.com/
 position: Principal engineer

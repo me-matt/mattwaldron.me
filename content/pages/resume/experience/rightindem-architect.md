@@ -1,6 +1,6 @@
 ---
 title: RightIndem
-order: 5
+order: 6
 template: experience
 link: https://www.rightindem.com/
 position: Solutions architect

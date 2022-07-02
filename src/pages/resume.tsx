@@ -22,15 +22,16 @@ const components = {
       grid-template-columns: 65% 35%;
   
       h4 {
-        font-size: 1.25rem;
         margin: 0;
         margin-bottom: 1rem;
       }
   
       ul {
-        margin: 0 0 0 2rem;
+        margin: 0 0 3rem 3rem;
         grid-column-start: 2;
         grid-row: 1 / 5;
+        padding: 0;
+        list-style-type: square;
       }
   
       p {

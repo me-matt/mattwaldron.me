@@ -1,11 +1,11 @@
 ---
 title: Xero Accounting
-order: 3
+order: 4
 template: experience
 link: https://www.xero.com/
-position: Architect
+position: Architect in Bank feeds
 from: 2019
-to: 2022
+to: 2021
 ---
 
 Enabled Xero to scale to additional regions and markets, as outlined by the organisations OKRs, by designing a scalable architecture for integrations with 3rd party financial institutions.
@@ -25,9 +25,3 @@ Enabled a 'north star' orientation for the team by defining a technical strategy
 Improved cohesion within the team, evident through the improved alignment over domain boundaries, by implementing a new operating model with engineering teams and creating new relationships with stakeholders.
 
 Created a visibility of architecture within the team promoting overall architectural dialogue, by facilitating frequent whiteboarding sessions and presenting to the product group.
-
-Helped define an organisation-wide architecture practice function by observing and contributing to systemic issues, moving my role to the architecture practice team.
-
-Contributed to architecture alignment throughout the organisation by delivering multiple organisation-wide transformation programmes involving domain driven design, capability modelling and distributed, async decision-making.
-
-Promoted a consistent mechanism of decision making, reducing overall time to make enterprise- and domain-tier decisions, by coordinating a cultural change for distributed async decision making. This required definition and delivery of architectural products and communicating their use and value throughout the organisation.

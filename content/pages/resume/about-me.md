@@ -4,18 +4,21 @@ template: twoCol
 order: 1
 ---
 
-Hi, I'm Matt. I enjoy thinking about problems, especially really big, important ones. I also enjoy understanding how things work at a very technical level. This lets me look at situations through many lenses.
+Hi, I'm Matt. I enjoy working through problems and finding the best solutions that seem to fall out of a problem space.
 
-Professionally, I like challenging problems and finding optimal ways to break them down and solve them.
+I spend free time with family and friends, and learning, lots of learning. Digesting new ideas and patterns of thinking and applying those to other domains is my biggest hobby.
 
-During my downtime, I am always learning new topics, spending most of my time digesting ideas and folding them back into my own understanding. I'm an advocate of life-long learning and champion practices for positive mental well-being.
+Being an external thinker, I often talk through ideas with friends to evolve my understanding of the world.
 
-The rest of my free time is spent with my friends and family, and enjoying whatever outdoor activities work best for the time, from mountain biking to surfing to snowboarding.
+A continuous advocate of life-long learning and mental well-being.
 
-- Continuous learning
-- Openness
-- Equality
-- Inclusivity
-- Respect
-- Transparency
-- Ownership
+I'm also keen on board sports.
+
+- Continuous learner
+- Inclusive
+- Respectful
+- Transparent
+- Responsible
+- Collaborative
+- Strategic
+- Analytical
