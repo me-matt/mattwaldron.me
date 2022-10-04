@@ -4,15 +4,11 @@ template: twoCol
 order: 1
 ---
 
-Hi, I'm Matt. I enjoy working through problems and finding the best solutions that seem to fall out of a problem space.
+I enjoy solving problems, especially engineering problems. Understanding how things work is my biggest hobby.
 
-I spend free time with family and friends, and learning, lots of learning. Digesting new ideas and patterns of thinking and applying those to other domains is my biggest hobby.
+My free time is usually spent with family and friends, and learning as much as possible. Being an external thinker, I like to talk through ideas to help evolve them.
 
-Being an external thinker, I often talk through ideas with friends to evolve my understanding of the world.
-
-A continuous advocate of life-long learning and mental well-being.
-
-I'm also keen on board sports.
+A continuous advocate of life-long learning and mental well-being. Though, I'm also keen on board sports.
 
 - Continuous learner
 - Inclusive

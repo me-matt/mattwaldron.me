@@ -8,20 +8,24 @@ from: 2019
 to: 2021
 ---
 
-Enabled Xero to scale to additional regions and markets, as outlined by the organisations OKRs, by designing a scalable architecture for integrations with 3rd party financial institutions.
+Standardised reference architectures and patterns alongside principal engineers, e.g. Channel patterns, eventing etc.
 
-Provided autonomy and ownership within my immediate engineering teams, measured by the teams' ability to deliver integrations. I delivered this by defining and communicating a technical strategy for the product group and creating a technical roadmap to achieve this.
+Standardised architecture practices, e.g. C4 modelling etc.
 
-Delivered an autonomous culture within the product group enabling ownership by aligning the organisation structure and architecture.
+Championed domain modelling to enable the product scale demands.
 
-Created alignment in the product group, measurable by the innate knowledge of the organisations architecture vision. This was achieved by helping define and communicating the broader principles, guardrails and architectural decisions across the organisation.
+Observed the absence of a 'north star' architecture and defined one through collaboration with lead engineers.
 
-Connected stakeholders throughout the organisation enabling more effective async operations by creating frequent forums for different layers within the organisation to discuss architecture and how the function provides them value.
+Pivotal in complex code analysis and debugging workshops with lead engineers.
 
-Uplifted technical capabilities throughout the engineering teams providing greater awareness of the solutions available by coaching engineers, product owners and managers and mentoring engineers within the product group.
+Worked alongside senior stakeholders to introduce DORA metrics.
 
-Enabled a 'north star' orientation for the team by defining a technical strategy and resulting architecture for the product group.
+Championed SLAs and facilitated their introduction.
 
-Improved cohesion within the team, evident through the improved alignment over domain boundaries, by implementing a new operating model with engineering teams and creating new relationships with stakeholders.
+Frequently dialogued with principal and lead engineers to ensure critical architecture dimensions were being optimised for.
 
-Created a visibility of architecture within the team promoting overall architectural dialogue, by facilitating frequent whiteboarding sessions and presenting to the product group.
+Introduced and ran weekly and fortnightly architecture workshops with the engineering teams.
+
+Frequently presented to the broader team and stakeholders on both technical and non-technical subjects.
+
+Mentored lead engineers and senior engineers.

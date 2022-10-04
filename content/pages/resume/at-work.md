@@ -8,16 +8,17 @@ I have worked professionally in software development for over 15 years in multip
 
 I'm a valued individual contributor and an effective leader and team member. I firmly believe that good collaboration is key to success.
 
-Very adaptable and comfortable in recognising and applying both symptomatic and fundamental solutions.
+Very adaptable and comfortable recognising and applying both symptomatic and fundamental solutions.
 
 Confidently dialogues with appropriate stakeholders to understand requirements and outline options, conveying their relative merit/cost with a strategic focus.
 
-- C# / .net
-- TypeScript
+- C# / dotnet
+- TypeScript / ES6
+- React
 - Go
 - AWS
-- Architecture and design patterns
+- Architecture and design patterns, inc. microservices, macroservices etc.
 - Systems thinking
 - Solution design
-- Domain-driven design
-- Evolutionary design
+- Architecture frameworks, e.g. domain-driven design
+- Leading teams

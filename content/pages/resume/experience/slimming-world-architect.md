@@ -8,8 +8,14 @@ from: 2018
 to: 2019
 ---
 
-Designed and coordinated architectural initiatives increasing delivery capability and autonomy. Focussing on high-reward constraints such as CI/CD patterns, and outlining automated testing cultures and patterns.
+Designed, released and maintained a business-critical service for group search using TypeScript and C# using Elasticsearch on Azure. With a focus on performance and cost as critical metrics.
 
-Designed and supported team development on critical business functions to support scales in excess of 50 unique searches/second.
+Developed React packages for the engineering team.
 
-Defined future architectural designs and roadmaps to decouple systems and improve delivery rates in alignment with the organisational structure.
+Developed Webpack integrations to support unique bundling requirements.
+
+Defined reference architectures to aid in decoupling systems and improving delivery rates where bottlenecks were observed.
+
+Championed and introduced patterns to aid in the SDLC e.g. monorepo.
+
+Frequently engaged with senior and lead engineers to diagnose complex issues.

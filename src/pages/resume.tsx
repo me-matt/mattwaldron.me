@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const Resume = styled.section`
-  margin: 2rem;
+  margin: 1.5rem;
 `;
 
 const components = {
@@ -15,16 +15,11 @@ const components = {
       <div dangerouslySetInnerHTML={{ __html: props.html }} />
     </section>
   ))`
-    margin: 0 2rem;
+    margin: 0;
   
     div {
       display: grid;
       grid-template-columns: 65% 35%;
-  
-      h4 {
-        margin: 0;
-        margin-bottom: 1rem;
-      }
   
       ul {
         margin: 0 0 3rem 3rem;
@@ -41,12 +36,26 @@ const components = {
   `,
   experience: styled(props => (
     <section className={props.className}>
-      <h4><a href={props.link} target="_new">{props.title}</a> - {props.position}</h4>
+      <h4>{props.position} - <a href={props.link} target="_new">{props.title}</a></h4>
       <p>{props.from} - {props.to}</p>
       <div dangerouslySetInnerHTML={{ __html: props.html }} />
     </section>
   ))`
-    margin: 0 2rem;
+    margin-bottom: 2rem;
+
+    p {
+      margin-bottom: 0.75rem;
+    }
+
+    h4 {
+      margin: 0;
+      margin-bottom: 0.25rem;
+
+      + p {
+        font-size: 0.75rem;
+        margin-bottom: 0.25rem;
+      }
+    }
   `,
 };
 
@@ -57,7 +66,7 @@ const Blog = ({ data: { site: { siteMetadata: { title } }, allMarkdownRemark: { 
 
   return (
     <Layout location={location}>
-      <SEO title="All posts" />
+      <SEO title="Resume" />
       <Resume>
 
       {blocks.map(block => {

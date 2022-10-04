@@ -3,7 +3,7 @@ module.exports = {
     title: `Matt Waldron`,
     author: {
       name: `Matt Waldron`,
-      summary: `I'm a lifelong learner. Currently working for Xero.`,
+      summary: `I'm a lifelong learner, currently looking for my next interesting role`,
     },
     description: `A place for ideation, general thoughts, musings and brain dumps`,
     siteUrl: `https://mattwaldron.me/`,
