@@ -5,7 +5,13 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const Resume = styled.section`
-  margin: 1.5rem;
+  p {
+    margin-bottom: 0.75rem;
+  }
+
+  li {
+    margin-bottom: 0.25rem;
+  }
 `;
 
 const components = {
@@ -15,14 +21,14 @@ const components = {
       <div dangerouslySetInnerHTML={{ __html: props.html }} />
     </section>
   ))`
-    margin: 0;
-  
+    margin-bottom: 2rem;
+
     div {
       display: grid;
       grid-template-columns: 65% 35%;
   
       ul {
-        margin: 0 0 3rem 3rem;
+        margin: 0 0 1rem 3rem;
         grid-column-start: 2;
         grid-row: 1 / 5;
         padding: 0;
@@ -42,10 +48,6 @@ const components = {
     </section>
   ))`
     margin-bottom: 2rem;
-
-    p {
-      margin-bottom: 0.75rem;
-    }
 
     h4 {
       margin: 0;
