@@ -5,7 +5,7 @@ template: experience
 link: https://www.rightindem.com/
 position: Principal engineer
 from: 2016
-to: 2015
+to: 2017
 ---
 
 Defined design patterns and architectures for use by the engineering teams.
